@@ -12,7 +12,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { useSelector } from 'react-redux'
 import { useState } from 'react'
 import Close from '@material-ui/icons/Close'
-import {auth} from '../firebase'
+// import {auth} from '../firebase'
 
 function Header() {
 

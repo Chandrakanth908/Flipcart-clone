@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+// import { useEffect } from 'react';
+// import { useDispatch } from 'react-redux';
 
 import {BrowserRouter as Router , Switch , Route} from 'react-router-dom'
 
@@ -29,7 +29,7 @@ import Chairs from './Components/Chairs';
 import Beds from './Components/Beds';
 import Tv from './Components/Tv';
 import Sofa from './Components/Sofa';
-import Login from './Components/Login';
+ 
 import Payment from './Components/Payment'
 function App() {
   return (

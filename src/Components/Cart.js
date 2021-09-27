@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cart.css'
-import cart from '../images/cart.png'
+// import cart from '../images/cart.png'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import Checkout from '../Components/Checkout'

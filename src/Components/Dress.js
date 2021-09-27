@@ -9,8 +9,7 @@ import w5 from '../images/w5.jpeg'
 import w6 from '../images/w6.jpeg'
 import w7 from '../images/w7.jpeg'
 import w8 from '../images/w8.jpeg'
-import w9 from '../images/w9.jpeg'
-import w10 from '../images/w10.jpeg'
+
 function Dress() {
     return (
         <div>
