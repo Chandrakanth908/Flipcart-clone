@@ -1,0 +1,36 @@
+.cart__home{
+    text-align: left;
+    margin-left: 14%;
+   
+}
+.cart__image img{
+    max-width: 200px;
+    
+}
+.cart__deliver{
+    margin-left: 45%;
+    margin-top: -30px;
+}
+.cart__order{
+    margin-left: 55%;
+  
+}
+.cartorder__1{
+    background: #fb641b;
+    width: 190px;
+    height: 40px;
+    margin-left: 220px;
+    color: #fff;
+    border: none;
+    margin-left: 60px;
+}
+.main__akhil{
+    background-color: #f0f0f0;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 50%;
+  
+}
+

@@ -1,0 +1,118 @@
+.login__main1{
+    background-color: #f0f0f0;
+}
+
+.login__main{
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: white;
+    height: 550px;
+    max-width: 1000px;
+   
+}
+.log1{
+    background-color:#2874f0;
+    margin-right: 70%;
+    height: 550px;
+    color: white;
+    
+   
+}
+.card__body{
+    margin-left: -300px;
+    
+}
+
+.log2{
+    margin-left: 20px;
+    
+}
+.a2{
+    width:500px
+    
+}
+.a2{
+    height: 40px;
+}
+.a1{
+    /* margin-top: 100px; */
+    margin-left: 100px;
+}
+.a5{
+    width:500px;
+    height: 40px;
+    background-color:#fb641b;
+    color: white;
+}
+.a6{
+    width: 500px;
+    height: 40px;
+    background-color:white;
+    color: #2874f0;
+}
+.a7{
+    color:blue;
+    margin-top: 5%;
+} 
+ .log3{
+    
+   width:300px;
+   
+   margin-top: 93%;
+} 
+ 
+
+
+.log2{
+    margin-left: 40%;
+    margin-top: -50%;
+}
+
+@media (max-width: 768px){
+    .login__main1{
+        background-color: white;
+        width: 400px;
+    }
+    .log1{
+        background-color:#2874f0;
+        margin-left: -100%;
+        height: 550px;
+        color: white;
+        font-size: 20px;
+        width:163px;
+       
+    } 
+    .log3{
+        width:130px;
+    }
+    .log4{
+        max-width: 120px;
+        height: 120px;
+    }
+    .a1{
+        margin-top: -150%;
+    }
+    .log2{
+        margin-top: -250%;
+        margin-left: 35%;
+    }
+    .a5{
+        width: 230px;
+        height: 30px;
+        
+    }
+    .a6{
+        width: 230px;
+        height: 30px;
+        
+    }
+    .card__body{
+        max-width: 200px;
+       margin-left: -205px;
+       margin-top: -5%;
+    }
+    .a2{
+        width: 230px;
+        
+    }
+}
