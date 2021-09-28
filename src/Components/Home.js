@@ -21,7 +21,7 @@ import slider5 from '../images/slider5.jpg'
 import d1 from '../images/d1.jpeg'
 import d2 from '../images/d2.jpeg'
 import d3 from '../images/d3.jpeg'
-import d4 from '../images/d4.jpeg'
+
 import d5 from '../images/d5.jpeg'
 import d6 from '../images/d6.jpeg'
 import d7 from '../images/d7.jpeg'
@@ -50,23 +50,23 @@ function Home() {
         <div className='home__main'>
             <div className="main">
                 <div class="dropdown">
-                    <img className="images" src={gift} />
+                    <img className="images" src={gift} alt="img6" />
                     <p>Top offers</p>
                 </div>
                 <div class="dropdown">
-                    <img className="images" src={grocery} />
+                    <img className="images" src={grocery} alt="img7" />
                     <p>Grocery</p>
                 </div>
                 <div class="dropdown">
-                    <img className="images" src={mobile} />
+                    <img className="images" src={mobile} alt="img8" />
                     <p>Mobiles</p>
                 </div>
 
                 <div class="dropdown">
-                    <img className="images" src={appliances} />
+                    <img className="images" src={appliances} alt="img9"/>
                     <p>Appliances</p>
-                    <div class="dropdown-content">
-                        <a href="#">Telivisions</a>
+                    {/* <div class="dropdown-content">
+                        <a href="/Telivisions">Telivisions</a>
                         <a href="#">Washing Machine </a>
                         <a href="#">Air conditioners </a>
                         <a href="#">Refrigirators </a>
@@ -76,14 +76,14 @@ function Home() {
                         <a href="#">Premium Appliances </a>
                         <a href="#">Buying Appliances </a>
                         <a href="#">Flipcart Benefits </a>
-                        <a href="#"> </a>
+                        
 
-                    </div>
+                    </div> */}
                 </div>
                 <div class="dropdown">
-                    <img className="images" src={electronics} />
+                    <img className="images" src={electronics} alt="img10" />
                     <p>Electronics</p>
-                    <div class="dropdown-content">
+                    {/* <div class="dropdown-content">
                         <a href="#">Audio</a>
                         <a href="#">Cameras&Accesories</a>
                         <a href="#">Gaming</a>
@@ -96,12 +96,12 @@ function Home() {
                         <a href="#">Storage</a>
                         <a href="#">Tablets</a>
 
-                    </div>
+                    </div> */}
                 </div>
                 <div class="dropdown">
-                    <img className="images" src={fashion} />
+                    <img className="images" src={fashion}  alt="img11" />
                     <p>Fashion</p>
-                    <div class="dropdown-content">
+                    {/* <div class="dropdown-content">
                         <a href="#">Men's Topwear</a>
                         <a href="#">Mens's Bottom wear</a>
                         <a href="#">women ethinic</a>
@@ -113,37 +113,25 @@ function Home() {
                         <a href="#">kids</a>
                         <a href="#">essentials</a>
                         <a href="#">winter</a>
-                    </div>
+                    </div> */}
                 </div>
 
 
                 <div class="dropdown">
-                    <img className="images" src={travell} />
+                    <img className="images" src={travell}  alt="img12"/>
                     <p>Travel</p>
-                    {/* <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div> */}
+                 
                 </div>
 
                 <div class="dropdown">
-                    <img className="images" src={home} />
+                    <img className="images" src={home}  alt="img13"/>
                     <p>Home</p>
-                    {/* <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div> */}
+                   
                 </div>
                 <div class="dropdown">
-                    <img className="images" src={teddy} />
+                    <img className="images" src={teddy}  alt="img14"/>
                     <p>Beauty,Toys&More</p>
-                    {/* <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div> */}
+                    
                 </div>
             </div>
             {/* corosel starts */}
@@ -151,19 +139,19 @@ function Home() {
                 <div id="imageCarousel" class="carousel slide " data-interval="1500" data-ride='carousel'>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src={slider1} class="img-responsive" />
+                            <img src={slider1}  alt="img15" class="img-responsive" />
                         </div>
                         <div class="carousel-item">
-                            <img src={slider2} class="img-responsive" />
+                            <img src={slider2}  alt="img16"class="img-responsive" />
                         </div>
                         <div class="carousel-item">
-                            <img src={slider3} class="img-responsive" />
+                            <img src={slider3}  alt="img17" class="img-responsive" />
                         </div>
                         <div class="carousel-item">
-                            <img src={slider4} class="img-responsive" />
+                            <img src={slider4}  alt="img18" class="img-responsive" />
                         </div>
                         <div class="carousel-item">
-                            <img src={slider5} class="img-responsive" />
+                            <img src={slider5}  alt="img19" class="img-responsive" />
                         </div>
 
                     </div>

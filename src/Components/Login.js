@@ -13,7 +13,7 @@ export default function Login() {
                         Wishlist and Recommendations
                     </h7>
                     <div className='log3' >
-                        <img src={login} />
+                        <img src={login} alt="img5"/>
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@ export default function Login() {
                                 <input type='password' className='a2' placeholder='password' />
 
                             </div>
-                            <small className='account__text'>By continuing, you agree to  <a href='#'>Term's of Use</a> and <a href='#'>Privacy Notice</a></small>
+                            <small className='account__text'>By continuing, you agree to  <a href='/'>Term's of Use</a> and <a href='/'>Privacy Notice</a></small>
                             {/* <summary className='account__text1'><a href="#">Need help?</a></summary> */}
                             <div >
 

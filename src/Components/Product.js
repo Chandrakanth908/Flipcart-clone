@@ -1,7 +1,7 @@
 import React from 'react'
 import ff from '../images/ff.png'
-import StarIcon from '@material-ui/icons/Star';
-import StarHalfIcon from '@material-ui/icons/StarHalf';
+// import StarIcon from '@material-ui/icons/Star';
+// import StarHalfIcon from '@material-ui/icons/StarHalf';
 import './Product.css'
 import { useDispatch } from 'react-redux'
 
@@ -10,11 +10,11 @@ function Product({ id, img, Model, Price, delivary }) {
     return (
         <div className="pol-3">
             <div className="pol-1">
-                <img className="prd__img" src={img} /><br></br>
+                <img className="prd__img" src={img} alt="img2" /><br></br>
             </div>
             <div className="pol-2">
                 <span>{Model}</span><br></br>
-                <img className='ff__1' src={ff}/><br></br>
+                <img className='ff__1' src={ff} alt="img3"/><br></br>
                 <b><span className="pri">Price:{Price}</span></b><br></br>
                 <b><span>{delivary}</span></b>
 

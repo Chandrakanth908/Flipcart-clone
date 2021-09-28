@@ -5,7 +5,7 @@ function ProductCategory({title , description , imgsrc}) {
         <div className='productCategory'>
             
             <div className='pro-1'>
-                <img src={imgsrc}/>
+                <img src={imgsrc} alt="img4"/>
             </div>
             <div className="pro-3">
             <strong>{title}</strong>

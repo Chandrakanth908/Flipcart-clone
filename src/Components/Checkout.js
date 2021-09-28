@@ -8,7 +8,8 @@ function Product({id , img , Model , Price , delivary}) {
     return (
         <div className="pol-3">
             <div className="pol-1">
-            <img className="prd__img" src={img}/><br></br>
+            <img className="prd__img" src={img} alt="img1"/><br></br>
+            
             </div>
             <div className="pol-2">
             <span>{Model}</span><br></br>
