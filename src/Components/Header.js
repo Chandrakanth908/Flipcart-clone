@@ -132,7 +132,7 @@ export default function Home() {
                                 <input type="email" placeholder="Enter Email" />
                             </div>
                             <div className="login_credentials">
-                                <input type="password" placeholder="Enter Email" />
+                                <input type="password" placeholder="Enter password" />
                                 <span className="forgot">forgot?</span>
                             </div>
                             <p>By continuing, you agree to Flipkart <span className="color_blue">terms of use</span> and <span className="color_blue">privacy policy</span></p>
