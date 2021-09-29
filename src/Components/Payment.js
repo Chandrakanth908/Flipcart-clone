@@ -1,46 +1,18 @@
-
+import React from 'react'
 import './Payment.css'
+import {useHistory} from 'react-router-dom'
+import {useDispatch} from 'react-redux'
 
-
-// import {useSelector, useDispatch} from 'react-redux'
-// import { Link  , useHistory } from 'react-router-dom'
-// import {v4 as uuidv4} from 'uuid';
-// import {db} from '../firebase'
-
-// import Checkout from '../Components/Checkout'
 function Payment() {
+    let history=useHistory()
+    let dispatch=useDispatch()
 
-    // let basket = useSelector(state =>state.basket);
-    // let user = useSelector(state=>state.user)
-    // console.log(basket);
-    // let history=useHistory();
-    // let dispatch=useDispatch();
+    let buyProduct = ()=>{
+        alert("Your payment is done")
+        history.push("/")
+        dispatch({type : "EMPTY_BASKET"})
 
-    // // let CheckoutDetails = basket.map(item=><Checkout  image={item.image} Model={item.Model} Price={item.Price} delivary={item.delivary}/>)
-    // // console.log(CheckoutDetails)
-
-    // const handleSubmit = async (event)=>{
-    //     event.preventDefault();
-    //     // console.log('*****************');
-    //     // console.log(user.uid);
-    //     console.log(db);
-    //     const users= db.collection('users');
-    //     console.log(users);
-
-    //     let paymentId = uuidv4();
-    //     console.log(paymentId)
-    //     db.collection('users').doc(user?.uid).collection('orders').doc(paymentId).set({
-    //         basket: basket,
-    //         amout : 100 
-    //     })
-    //     console.log("after payment");
-    //     alert('Payment is succesfull')
-
-    //     dispatch({
-    //         type : 'EMPTY_BASKET',
-    //     })
-    //     history.replace('/Myorders');
-    // }
+    }
 
     return (
         <div className="carthead container">
@@ -92,7 +64,7 @@ function Payment() {
 
             </div>
 
-            <button className='place' ><b>Place Order</b></button>
+            <button className='place' onClick={buyProduct} ><b>Place Order</b></button>
         </div>
     )
 }
